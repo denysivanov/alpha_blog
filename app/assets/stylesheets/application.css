@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+.navbar {
+    background-color: black !important
+}
+
+.nav-link{
+    color: white !important;
+}
+
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: white !important;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#home-container{
+    margin-top: 25px
+}
+
+#jumbotron{
+    background-image: url('typewriter.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+}
+
+html,
+body{
+    height: 100%;
+}
+
