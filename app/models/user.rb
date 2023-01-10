@@ -13,4 +13,5 @@ class User < ApplicationRecord
                         length: { maximum: 105 },
                         format: { with: VALID_EMAIL_REGEX, message: "allow only valid email address" }
 
+  has_secure_password
 end
