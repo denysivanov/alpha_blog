@@ -25,7 +25,7 @@
         </div>
 
 
-        <%= f.submit "Sign Up", class: "btn btn-outline-success btn-lg mt-4" %>
+        <%= f.submit(@user.new_record? ? "Sign Up" : "Update account", class: "btn btn-outline-success btn-lg mt-4") %>
       <% end %>
       <div class="mb-3">
         <%= link_to '[ Cancel and return to article listing ]', articles_path, class: "text-info" %>
